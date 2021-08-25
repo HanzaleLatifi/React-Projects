@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Patrick Hand", cursive;
+  transition: all .15s linear;
+}
+html {
+  font-size: 65%;
+}
+body {
+  overflow-x: hidden;
+}
