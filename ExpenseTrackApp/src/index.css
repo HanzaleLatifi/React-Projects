@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+}
+html{
+  font-size: 65%;
+}
+button{
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+}
+input:focus{
+  outline: none;
+  border: .1rem solid #fff;
+}
+
+
+
+  
