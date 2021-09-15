@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: .2s all linear;
+}
+body{
+  overflow-x: hidden;
+}
+html{
+  font-size: 65%;
+}
+ul{
+  list-style: none;
+}
+button{
+outline: none;
+border: none;
+cursor: pointer;
+}
+input{
+  border: none;
+}
+input:focus{
+  outline: none;
+}
+select{
+  border: none;
+  cursor: pointer;
+}
+select:focus{
+  outline: none;
+
+}
+
+
