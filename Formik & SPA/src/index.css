@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all .2s linear;
+}
+body{
+  overflow-x: hidden;
+}
+
+html{
+  font-size: 62.5%;
+}
+input:focus{
+  outline: none;
+}
+
+
+  

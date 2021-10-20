@@ -1,0 +1,120 @@
+.Container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #333;
+}
+.Content {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  min-height: 40rem;
+  background-color: #333;
+  margin-top: 2%;
+}
+.Nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  font-size: 2.6rem;
+  width: 100%;
+  border-bottom: 0.1rem solid #68dceb;
+}
+.Link {
+  color: white;
+  text-decoration: none;
+}
+.ActiveNav {
+  color: #68dceb;
+  text-shadow: 0 0 2rem #68dceb;
+}
+/* ----- Form Styles Start ---- */
+.Form {
+  padding: 1rem 2rem;
+  width: 100%;
+  height: 100%;
+  font-size: 1.9rem;
+  color: #68dceb;
+}
+.Form label {
+  margin: 0.3rem 0;
+}
+.FormControl {
+  display: flex;
+  flex-direction: column;
+  margin: 1.4rem 0;
+}
+.FormControl > input {
+  padding: 0.4rem 0.9rem;
+  font-size: 1.8rem;
+  color: #333;
+  border: none;
+  border-radius: 1rem;
+}
+input:focus {
+  box-shadow: 0 0 0.5rem 0 #68dceb, 0 0 1rem 0 #68dceb;
+}
+.Radios {
+  display: flex;
+  align-items: center;
+  margin: 1.3rem 0;
+}
+.Radios div {
+  margin-right: 2rem;
+}
+.Radios label {
+  margin-right: 0.3rem;
+}
+.FormControl select {
+  padding: 0.3rem 0.9rem;
+  font-size: 1.6rem;
+  color: #333;
+  border: none;
+  border-radius: 1rem;
+}
+.CheckBox{
+    margin:1.6rem 0;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+
+}
+.CheckBox label{
+    margin: 0 .5rem;
+}
+.Btn{
+    font-size: 2.3rem;
+    background-color: #68dceb;
+    border-radius: 1rem;
+    padding: .7rem 4rem;
+    border: none;
+    cursor: pointer;
+       
+}
+.Btn:focus{
+    box-shadow: 0 0 0.5rem 0 #68dceb, 0 0 1rem 0 #68dceb;
+}
+.Btn:hover{
+    box-shadow: 0 0 .7rem 0 #68dceb, 0 0 1.7rem 0 #68dceb;
+}
+
+/* ----- Form Styles End ------- */
+.error{
+  font-size: 1.5rem;
+  color: #eb68eb;
+  margin: .4rem 0;
+}
+
+@media (max-width: 768px) {
+  .Content {
+    width: 100%;
+    width: 100%;
+    margin-top: 0;
+  }
+  .Btn{
+      width: 100%;
+  }
+}
